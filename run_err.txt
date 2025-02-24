@@ -1,0 +1,29 @@
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]/home/araghani/miniconda3/envs/py38/lib/python3.8/site-packages/torch/_utils.py:831: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.  To access UntypedStorage directly, use tensor.untyped_storage() instead of tensor.storage()
+  return self.fget.__get__(instance, owner)()
+Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:12,  4.09s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:08,  4.04s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:11<00:03,  3.96s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:12<00:00,  2.79s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:12<00:00,  3.24s/it]
+/home/araghani/miniconda3/envs/py38/lib/python3.8/site-packages/transformers/tokenization_utils_base.py:1617: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be deprecated in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+  0%|          | 0/5 [00:00<?, ?it/s]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Starting from v4.46, the `logits` model output will have the same type as the model (except at train time, where it will always be FP32)
+ 20%|██        | 1/5 [00:02<00:09,  2.25s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 40%|████      | 2/5 [00:06<00:09,  3.28s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 60%|██████    | 3/5 [00:10<00:07,  3.93s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 80%|████████  | 4/5 [00:12<00:03,  3.01s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+100%|██████████| 5/5 [00:14<00:00,  2.58s/it]100%|██████████| 5/5 [00:14<00:00,  2.87s/it]
+  0%|          | 0/5 [00:00<?, ?it/s]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 20%|██        | 1/5 [00:00<00:00,  6.20it/s]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 40%|████      | 2/5 [00:00<00:00,  6.80it/s]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 60%|██████    | 3/5 [00:00<00:00,  6.95it/s]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 80%|████████  | 4/5 [00:00<00:00,  7.02it/s]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+100%|██████████| 5/5 [00:01<00:00,  2.48it/s]100%|██████████| 5/5 [00:01<00:00,  3.46it/s]

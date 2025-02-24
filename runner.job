@@ -1,0 +1,14 @@
+#!/bin/bash
+#SBATCH --job-name=runner.job
+#SBATCH --output=./run_out.txt
+#SBATCH --error=./run_err.txt
+#SBATCH --time=2-00:00
+#SBATCH --mem=200000
+#SBATCH --gres=gpu:1
+# Example command: sbatch runner.job
+
+# Test nvidia-smi
+nvidia-smi
+
+# Test Python conda environment
+/home/araghani/miniconda3/envs/py38/bin/python /home/araghani/LLM-BioMed-NER-RE/BioRAG.py
