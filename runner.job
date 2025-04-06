@@ -4,6 +4,7 @@
 #SBATCH --error=./run_err.txt
 #SBATCH --time=2-00:00
 #SBATCH --mem=200000
+#SBATCH --partition=defq
 #SBATCH --gres=gpu:1
 # Example command: sbatch runner.job
 
@@ -11,4 +12,4 @@
 nvidia-smi
 
 # Test Python conda environment
-/home/araghani/miniconda3/envs/py38/bin/python /home/araghani/LLM-BioMed-NER-RE/BioRAG.py
+/home/araghani/miniconda3/envs/py38/bin/python /home/araghani/BioMed-NER/Anuj_BioNER.py

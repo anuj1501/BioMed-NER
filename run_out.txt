@@ -1,4 +1,4 @@
-Sun Dec  8 23:29:40 2024       
+Sun Apr  6 16:37:08 2025       
 +---------------------------------------------------------------------------------------+
 | NVIDIA-SMI 530.30.02              Driver Version: 530.30.02    CUDA Version: 12.1     |
 |-----------------------------------------+----------------------+----------------------+
@@ -6,8 +6,8 @@ Sun Dec  8 23:29:40 2024
 | Fan  Temp  Perf            Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
 |                                         |                      |               MIG M. |
 |=========================================+======================+======================|
-|   0  Tesla V100-SXM2-32GB            On | 00000000:88:00.0 Off |                    0 |
-| N/A   36C    P0               38W / 300W|      0MiB / 32768MiB |      0%      Default |
+|   0  Quadro RTX 8000                 On | 00000000:1E:00.0 Off |                  Off |
+| 33%   38C    P8               20W / 260W|      1MiB / 49152MiB |      0%      Default |
 |                                         |                      |                  N/A |
 +-----------------------------------------+----------------------+----------------------+
                                                                                          
@@ -18,125 +18,3 @@ Sun Dec  8 23:29:40 2024
 |=======================================================================================|
 |  No running processes found                                                           |
 +---------------------------------------------------------------------------------------+
-F1-Score One Shot (Lenient): 0.3333333333333333
-<class 'list'>
-<class 'dict'>
-<class 'dict'>
-<class 'dict'>
-<class 'dict'>
-<class 'dict'>
-You are a helpful assistant to perform the following task.
-"TASK: the task is to extract disease entities in a sentence."
-"INPUT: the input is a sentence."
-"OUTPUT: the output is an HTML that highlights all the disease entities in the sentence. The highlighting should only use HTML tags <span style="background-color: #FFFF00"> and </span> and no other tags."
-
-[INST] Myotonic dystrophy ( DM ) is the most prevalent inherited neuromuscular disease in adults. [/INST] <span style="background-color: #FFFF00">Myotonic dystrophy</span> ( <span style="background-color: #FFFF00">DM</span> ) is the most prevalent <span style="background-color: #FFFF00">inherited neuromuscular disease</span> in adults.[INST] TASK: Extract disease entities from the following sentence using the provided relevant medical terms.
-
-    INPUT SENTENCE: Sentence: In addition, the frequency at which we have found PAX6 mutations suggests that lesions in PAX6 will account for most cases of aniridia..
-Relevant Terms: pax6 transcription factor, aniridia, human papillomavirus 6, anus diseases, anus neoplasms
-
-    INSTRUCTIONS:
-    - Highlight disease entities in the input sentence using <span style="background-color: #FFFF00"> and </span>.
-    - Use relevant terms as context for entity identification but highlight entities only if present in the sentence.
-    - Output the original sentence with entities highlighted.
-    - Do not highlight terms that are not entities.
-
-    Begin your output with "Output:" and ensure the extracted entities are correctly highlighted. [/INST]
-
-<class 'list'>
-<class 'dict'>
-<class 'dict'>
-<class 'dict'>
-<class 'dict'>
-<class 'dict'>
-You are a helpful assistant to perform the following task.
-"TASK: the task is to extract disease entities in a sentence."
-"INPUT: the input is a sentence."
-"OUTPUT: the output is an HTML that highlights all the disease entities in the sentence. The highlighting should only use HTML tags <span style="background-color: #FFFF00"> and </span> and no other tags."
-
-[INST] Myotonic dystrophy ( DM ) is the most prevalent inherited neuromuscular disease in adults. [/INST] <span style="background-color: #FFFF00">Myotonic dystrophy</span> ( <span style="background-color: #FFFF00">DM</span> ) is the most prevalent <span style="background-color: #FFFF00">inherited neuromuscular disease</span> in adults.[INST] TASK: Extract disease entities from the following sentence using the provided relevant medical terms.
-
-    INPUT SENTENCE: Sentence: Evidence for linkage of bipolar disorder to chromosome 18 with a parent - of - origin effect.
-Relevant Terms: bipolar and related disorders, bipolar disorder, bipolaris, trisomy 18 syndrome, chromosomes, human, pair 18
-
-    INSTRUCTIONS:
-    - Highlight disease entities in the input sentence using <span style="background-color: #FFFF00"> and </span>.
-    - Use relevant terms as context for entity identification but highlight entities only if present in the sentence.
-    - Output the original sentence with entities highlighted.
-    - Do not highlight terms that are not entities.
-
-    Begin your output with "Output:" and ensure the extracted entities are correctly highlighted. [/INST]
-
-<class 'list'>
-<class 'dict'>
-<class 'dict'>
-<class 'dict'>
-<class 'dict'>
-<class 'dict'>
-You are a helpful assistant to perform the following task.
-"TASK: the task is to extract disease entities in a sentence."
-"INPUT: the input is a sentence."
-"OUTPUT: the output is an HTML that highlights all the disease entities in the sentence. The highlighting should only use HTML tags <span style="background-color: #FFFF00"> and </span> and no other tags."
-
-[INST] Myotonic dystrophy ( DM ) is the most prevalent inherited neuromuscular disease in adults. [/INST] <span style="background-color: #FFFF00">Myotonic dystrophy</span> ( <span style="background-color: #FFFF00">DM</span> ) is the most prevalent <span style="background-color: #FFFF00">inherited neuromuscular disease</span> in adults.[INST] TASK: Extract disease entities from the following sentence using the provided relevant medical terms.
-
-    INPUT SENTENCE: Sentence: In summary, genetic syndromes of either complete or partial LCAT deficiency result in low levels of HDL through preferential hypercatabolism of apoA - II and HDL particles containing apoA - II.
-Relevant Terms: lipoproteins, hdl, lipoproteins, hdl2, cholesterol, hdl, lipoproteins, hdl3, hla-dr serological subtypes
-
-    INSTRUCTIONS:
-    - Highlight disease entities in the input sentence using <span style="background-color: #FFFF00"> and </span>.
-    - Use relevant terms as context for entity identification but highlight entities only if present in the sentence.
-    - Output the original sentence with entities highlighted.
-    - Do not highlight terms that are not entities.
-
-    Begin your output with "Output:" and ensure the extracted entities are correctly highlighted. [/INST]
-
-<class 'list'>
-<class 'dict'>
-<class 'dict'>
-<class 'dict'>
-<class 'dict'>
-<class 'dict'>
-You are a helpful assistant to perform the following task.
-"TASK: the task is to extract disease entities in a sentence."
-"INPUT: the input is a sentence."
-"OUTPUT: the output is an HTML that highlights all the disease entities in the sentence. The highlighting should only use HTML tags <span style="background-color: #FFFF00"> and </span> and no other tags."
-
-[INST] Myotonic dystrophy ( DM ) is the most prevalent inherited neuromuscular disease in adults. [/INST] <span style="background-color: #FFFF00">Myotonic dystrophy</span> ( <span style="background-color: #FFFF00">DM</span> ) is the most prevalent <span style="background-color: #FFFF00">inherited neuromuscular disease</span> in adults.[INST] TASK: Extract disease entities from the following sentence using the provided relevant medical terms.
-
-    INPUT SENTENCE: Sentence: The results suggest that the prenatal diagnosis of Wolman disease be made using the radioassay of acid lipase and / or electrophoresis..
-Relevant Terms: wolman disease, prenatal diagnosis, lipid metabolism, inborn errors, early diagnosis, diagnostic techniques and procedures
-
-    INSTRUCTIONS:
-    - Highlight disease entities in the input sentence using <span style="background-color: #FFFF00"> and </span>.
-    - Use relevant terms as context for entity identification but highlight entities only if present in the sentence.
-    - Output the original sentence with entities highlighted.
-    - Do not highlight terms that are not entities.
-
-    Begin your output with "Output:" and ensure the extracted entities are correctly highlighted. [/INST]
-
-<class 'list'>
-<class 'dict'>
-<class 'dict'>
-<class 'dict'>
-<class 'dict'>
-<class 'dict'>
-You are a helpful assistant to perform the following task.
-"TASK: the task is to extract disease entities in a sentence."
-"INPUT: the input is a sentence."
-"OUTPUT: the output is an HTML that highlights all the disease entities in the sentence. The highlighting should only use HTML tags <span style="background-color: #FFFF00"> and </span> and no other tags."
-
-[INST] Myotonic dystrophy ( DM ) is the most prevalent inherited neuromuscular disease in adults. [/INST] <span style="background-color: #FFFF00">Myotonic dystrophy</span> ( <span style="background-color: #FFFF00">DM</span> ) is the most prevalent <span style="background-color: #FFFF00">inherited neuromuscular disease</span> in adults.[INST] TASK: Extract disease entities from the following sentence using the provided relevant medical terms.
-
-    INPUT SENTENCE: Sentence: Regional mapping of the phenylalanine hydroxylase gene and the phenylketonuria locus in the human genome.
-Relevant Terms: phenylalanine hydroxylase, phenylketonurias, phenylketonuria, maternal, phenylalanine, phenylalanine-trna ligase
-
-    INSTRUCTIONS:
-    - Highlight disease entities in the input sentence using <span style="background-color: #FFFF00"> and </span>.
-    - Use relevant terms as context for entity identification but highlight entities only if present in the sentence.
-    - Output the original sentence with entities highlighted.
-    - Do not highlight terms that are not entities.
-
-    Begin your output with "Output:" and ensure the extracted entities are correctly highlighted. [/INST] Output: The most prevalent inherited neuromuscular disease in adults is Myotonic dystrophy (DM).
-
-RAG F1-Score: 0
